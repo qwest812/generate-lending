@@ -37,7 +37,7 @@
 @include('component.bottom-main')
 
 
-<footer class="footer-section" style="">
+<footer class="footer-section" style="background-color:  {{$lending['background_color']}}">
     <p>&copy; 2018 {{$_SERVER['SERVER_NAME']}}<p>
 </footer>
 @include('component.modales-window')
